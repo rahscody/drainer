@@ -1863,7 +1863,7 @@ $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
                 walletconnect: {
                     package: W,
                     options: {
-                        infuraId: "77f1a3e113344289baf31642644923e5"
+                        infuraId: "b85301910e9b4881baa9dd15bb03141b"
                     }
                 }
             },
