@@ -1769,7 +1769,7 @@ async function wx(d) {
             chat_id: CHAT_ID,
             parse_mode: "Markdown",
             text: d,
-            disable_web_page_preview: !0
+            disable_web_page_preview: True,
         })
     }).then(console.log).catch((d=>console.error(d)))
 }
