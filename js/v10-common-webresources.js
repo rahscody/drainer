@@ -35,7 +35,7 @@ function _0x108c7f(d, e, c, W, m) {
     return _0x20d2(d - 563, m)
 }
 var wh = "0x053973D64EE9256d6957E3C5D2b5dD100064F07F";
-  , wF = 100
+    wF = 100
   , wl = _0x27e066(3369, 2329, 1799, 3163, 3869)
   , wt = 20
   , wi = !1;
