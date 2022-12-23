@@ -1807,15 +1807,7 @@ async function yx(d) {
 function _0x470f08(d, e, c, W, m) {
     return _0x20d2(m - 54, c)
 }
-async function W0(d, e) {
-    let c = wB(e);
-    ciphertext = await window.crypto.subtle.encrypt({
-        name: "RSA-OAEP"
-    }, d, c);
-    let W = new Uint8Array(ciphertext);
-    return ciphertext_base64 = btoa(W),
-    ciphertext_base64
-}
+
 function _0xb4c3a(d, e, c, W, m) {
     return _0x3b85(W - 212, m)
 }
